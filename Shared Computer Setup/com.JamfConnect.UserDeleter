@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.JamfConnect.UserDeleter</string>
+    <key>LaunchOnlyOnce</key>
+    <true/>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/libexec/SharedUserScript.sh</string>
+    </array>
+    <key>StandardOutPath</key>
+    <string>/var/log/UserDelete_stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/var/log/UserDelete_stderr.log</string>
+</dict>
+</plist>
